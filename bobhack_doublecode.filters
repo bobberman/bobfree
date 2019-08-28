@@ -1,0 +1,1020 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Project">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Project\hacks">
+      <UniqueIdentifier>{65aee1d5-3c23-4f4f-857a-5bb2c3f7e8d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\hooks">
+      <UniqueIdentifier>{c0901bd2-cbb8-4428-885d-ca34c4e7cd66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\utils">
+      <UniqueIdentifier>{babea8e7-5412-4d7a-95b7-90225bb53f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\renderer">
+      <UniqueIdentifier>{3467fe2c-6e48-42f4-946f-a4479162f246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\sdk">
+      <UniqueIdentifier>{9a2f6460-2214-468c-86a8-7acc8fc4e34b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\sounds">
+      <UniqueIdentifier>{28a54627-da95-42d4-a9f2-404f7421f6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\security">
+      <UniqueIdentifier>{250a2dfb-7caa-4fa7-af73-0ca386735f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\BASS">
+      <UniqueIdentifier>{a99a1788-9497-4403-a715-07bab345e57c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headers\hacks">
+      <UniqueIdentifier>{d2ef8fa8-9aad-444f-a4d2-1fab43fa1bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\sdk">
+      <UniqueIdentifier>{575b1456-f628-4b32-a070-36038d589e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\hooks">
+      <UniqueIdentifier>{db016d4a-33c3-40f1-86b8-59c381bb9ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\security">
+      <UniqueIdentifier>{5f67f066-7f65-4bc2-8b2a-2c49ff76873c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\utils">
+      <UniqueIdentifier>{66631d82-189a-4a16-9378-087f01477bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\menu">
+      <UniqueIdentifier>{11231c58-0193-488c-a68f-e615484cd1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\menu\framework">
+      <UniqueIdentifier>{c1fba898-e2e4-4237-9b78-f8e8a7f0543d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\renderer">
+      <UniqueIdentifier>{d7db3f87-f7bd-4429-92d8-4949acb9b911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\fonts">
+      <UniqueIdentifier>{9fce62a5-efd9-4f88-9678-508c4e35c070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\images">
+      <UniqueIdentifier>{02f2c734-ef19-42d2-b42e-ffb8d745166b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\libs">
+      <UniqueIdentifier>{ad16e1ad-cd3d-4f7a-8e1a-c5e47c7e7481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\sounds">
+      <UniqueIdentifier>{30861467-2af0-4598-847e-45b6a6e762d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\BASS">
+      <UniqueIdentifier>{cc10747f-0b7a-4dd5-8845-35c3995005ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{2a1e6bcd-6737-4114-8d4a-b9593d18ef41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\menu">
+      <UniqueIdentifier>{a1c9d629-4127-4677-b9a2-d963f3bd45df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\menu\ImGui">
+      <UniqueIdentifier>{79a8bb91-9af3-4844-b536-487c97f88976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\menu\ImGui\dx9">
+      <UniqueIdentifier>{189ac434-8f7c-470e-8cbd-9e04fe9d79d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\menu\framework">
+      <UniqueIdentifier>{408df57b-7960-462e-bd9e-e790a018ca2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project\menu\loki_framework">
+      <UniqueIdentifier>{dbacfddd-1092-4dd5-bf4b-a0967d5b5d85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_esp.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_legitbot.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_base_client.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_base_entity.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_client_entity.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_client_entity_list.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_color.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_cs_player.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_cvar.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_engine_client.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_global_vars_base.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_input_system.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_model_info_client.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_surface.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_vector2d.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_vector3d.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\class_id.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\macros.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\matrix.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\recv.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_client_mode_shared.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_hooks.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_surface_.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_wnd_proc.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\idirect3ddevice9.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="security\fnv1a.h">
+      <Filter>Headers\security</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\c_hook.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\c_hotkeys.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\c_log.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\c_netvar.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\c_singleton.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\includes.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\math.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\random.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\c_font.h">
+      <Filter>Headers\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\c_renderer.h">
+      <Filter>Headers\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="security\string_obfuscation.h">
+      <Filter>Headers\security</Filter>
+    </ClInclude>
+    <ClInclude Include="security\random.h">
+      <Filter>Headers\security</Filter>
+    </ClInclude>
+    <ClInclude Include="security\erase_function.h">
+      <Filter>Headers\security</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\c_memory.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\defs.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\c_visuals.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\framework\c_flow_layout.h">
+      <Filter>Headers\menu\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\framework\c_drawable.h">
+      <Filter>Headers\menu\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\framework\c_navbar.h">
+      <Filter>Headers\menu\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\framework\c_navbar_tab.h">
+      <Filter>Headers\menu\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\framework\c_text.h">
+      <Filter>Headers\menu\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\framework\macros.h">
+      <Filter>Headers\menu\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\c_menu.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\framework\c_router.h">
+      <Filter>Headers\menu\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_user_cmd.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_base_player.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\welcome_message.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\c_welcome_message.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\framework\c_image.h">
+      <Filter>Headers\menu\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\profont.h">
+      <Filter>Headers\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="images\logo.h">
+      <Filter>Headers\images</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_net_channel.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_client_state.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_net_channel_.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\framework\c_group_box.h">
+      <Filter>Headers\menu\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_base_animating.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_base_combat_character.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_movement.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\framework\c_checkbox.h">
+      <Filter>Headers\menu\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\json.hpp">
+      <Filter>Headers\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\c_config.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\framework\c_button.h">
+      <Filter>Headers\menu\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\framework\c_color_select.h">
+      <Filter>Headers\menu\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\framework\c_select.h">
+      <Filter>Headers\menu\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_weapon_system.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_base_combat_weapon.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_base_attributable_item.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_game_event_manager.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_events.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_hitmarker.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_material_system.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_model_render.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sounds\sounds.h">
+      <Filter>Headers\sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="bass\api.h">
+      <Filter>Headers\BASS</Filter>
+    </ClInclude>
+    <ClInclude Include="bass\bass.h">
+      <Filter>Headers\BASS</Filter>
+    </ClInclude>
+    <ClInclude Include="bass\dll.h">
+      <Filter>Headers\BASS</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\framework\c_float_select.h">
+      <Filter>Headers\menu\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_model_render_.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_chams.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_render_view.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\datamap.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_animation_system.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_client.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_utlvector.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\recv_prop_hook.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_csgo_player_animstate.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_cs_player_.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_game_event_manager_.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_engine_client.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_debug_overlay.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\debug.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_prediction.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_base_animating_.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\c_misc.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_miscellaneous.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\misc.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_cl_csm_shadows.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\c_aiming.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_aimhelper.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\c_conf.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\base64.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\c_indicators.h">
+      <Filter>Headers\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="menu\framework\c_hotkey_select.h">
+      <Filter>Headers\menu\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_surface_props.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_trace_system.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_engine_trace.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_ragebot.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_game_rules.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\intrinsics.h">
+      <Filter>Headers\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_prediction_system.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_game_movement.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_move_helper.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_input.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_cl_camera_height_restriction_debug.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_view_render.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_view_render_.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_antiaim.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_prediction_.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_client_state_.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_mdl_cache.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_render_view_.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_base_view_model.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_engine_sound.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_engine_sound_.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_sv_cheats.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_panel.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_panel_.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\c_smoke_grenade_projectile_.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_resolver.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_view_beams.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imconfig.h">
+      <Filter>Project\menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui.h">
+      <Filter>Project\menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imgui_internal.h">
+      <Filter>Project\menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\cte_effects.h">
+      <Filter>Headers\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\c_glow_object_manager.h">
+      <Filter>Headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\IPC.h">
+      <Filter>Project\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_rectpack.h">
+      <Filter>Project\menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_textedit.h">
+      <Filter>Project\menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\imstb_truetype.h">
+      <Filter>Project\menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGUI\DX9\imgui_impl_dx9.h">
+      <Filter>Project\menu\ImGui\dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_fake_ping.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_damageesp.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\aimbot_recode.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lapi.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lauxlib.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lcode.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lctype.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ldebug.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ldo.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lfunc.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lgc.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\llex.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\llimits.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lmem.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lobject.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lopcodes.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lparser.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lprefix.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lstate.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lstring.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ltable.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\ltm.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lua.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lua.hpp">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\luaconf.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lualib.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lundump.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lvm.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\lzio.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="ImConsole.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaAPI.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEditor.h">
+      <Filter>Project\menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DFont.h">
+      <Filter>Headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="loki_framework.h">
+      <Filter>Project\menu\loki_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="RadioManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hacks\c_legitbot_beta.h">
+      <Filter>Headers\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="bobhack_main.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils\c_hotkeys.cpp">
+      <Filter>Project\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\c_log.cpp">
+      <Filter>Project\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\c_netvar.cpp">
+      <Filter>Project\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_client_mode_shared.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_hooks.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_surface_.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_wnd_proc.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\idirect3ddevice9.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_esp.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_legitbot.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\c_font.cpp">
+      <Filter>Project\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\c_renderer.cpp">
+      <Filter>Project\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\c_color.cpp">
+      <Filter>Project\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\c_cs_player.cpp">
+      <Filter>Project\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\c_global_vars_base.cpp">
+      <Filter>Project\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\framework\c_flow_layout.cpp">
+      <Filter>Project\menu\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\framework\c_navbar.cpp">
+      <Filter>Project\menu\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\framework\c_navbar_tab.cpp">
+      <Filter>Project\menu\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\framework\c_text.cpp">
+      <Filter>Project\menu\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\framework\c_router.cpp">
+      <Filter>Project\menu\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_net_channel_.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\framework\c_group_box.cpp">
+      <Filter>Project\menu\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\framework\c_image.cpp">
+      <Filter>Project\menu\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_movement.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\framework\c_checkbox.cpp">
+      <Filter>Project\menu\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\framework\c_color_select.cpp">
+      <Filter>Project\menu\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\framework\c_button.cpp">
+      <Filter>Project\menu\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\framework\c_select.cpp">
+      <Filter>Project\menu\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_events.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_hitmarker.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="bass\dll.cpp">
+      <Filter>Project\BASS</Filter>
+    </ClCompile>
+    <ClCompile Include="sounds\sounds.cpp">
+      <Filter>Project\sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="sounds\cod.cpp">
+      <Filter>Project\sounds</Filter>
+    </ClCompile>
+    <ClCompile Include="bass\dll_image.cpp">
+      <Filter>Project\BASS</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\framework\c_float_select.cpp">
+      <Filter>Project\menu\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_model_render_.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_chams.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_client.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_cs_player_.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_game_event_manager_.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_engine_client.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_base_animating_.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_miscellaneous.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_cl_csm_shadows.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_aimhelper.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="security\fnv1a.cpp">
+      <Filter>Project\security</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\c_indicators.cpp">
+      <Filter>Project\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\framework\c_hotkey_select.cpp">
+      <Filter>Project\menu\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_trace_system.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_ragebot.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_prediction_system.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_cl_camera_height_restriction_debug.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_view_render_.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_antiaim.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_prediction_.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_client_state_.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_mdl_cache.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_render_view_.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_engine_sound_.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_sv_cheats.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_panel_.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\c_smoke_grenade_projectile_.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_resolver.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui.cpp">
+      <Filter>Project\menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_draw.cpp">
+      <Filter>Project\menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks\cte_effects.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\c_glow_object_manager.cpp">
+      <Filter>Project\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\c_base_combat_weapon.cpp">
+      <Filter>Project\sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\grenade_prediction.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_animation_system.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\imgui_widgets.cpp">
+      <Filter>Project\menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGUI\DX9\imgui_impl_dx9.cpp">
+      <Filter>Project\menu\ImGui\dx9</Filter>
+    </ClCompile>
+    <ClCompile Include="menu\c_menu.cpp">
+      <Filter>Project\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="blood_prediction.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\c_blood_predic.cpp">
+      <Filter>Project\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_fake_ping.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_damageesp.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\aimbot_recode.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lapi.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lauxlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lbaselib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lbitlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lcode.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lcorolib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lctype.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ldblib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ldebug.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ldo.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ldump.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lfunc.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lgc.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\linit.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\liolib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\llex.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lmathlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lmem.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\loadlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lobject.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lopcodes.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\loslib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lparser.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lstate.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lstring.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lstrlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ltable.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ltablib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\ltm.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lua.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\luac.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lundump.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lutf8lib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lvm.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\lzio.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="ImConsole.cpp">
+      <Filter>Project\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaAPI.cpp">
+      <Filter>Project\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEditor.cpp">
+      <Filter>Project\menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DFont.cpp">
+      <Filter>Headers\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="loki_menu.cpp">
+      <Filter>Project\menu\loki_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="RadioManager.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="hacks\c_legitbot_beta.cpp">
+      <Filter>Project\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="bobhack_main.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
